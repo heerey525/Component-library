@@ -1,0 +1,30 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "收集起来的组件库",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heerey525/Component-library.git"
+  },
+  "keywords": [
+    "组件库"
+  ],
+  "author": "hanleiwyyx@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heerey525/Component-library/issues"
+  },
+  "homepage": "https://github.com/heerey525/Component-library#readme",
+  "devDependencies": {
+    "vuepress": "1.5.4"
+  },
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
+}
